@@ -1,13 +1,11 @@
 import random
 apellido = input("ingrese su apellido por favor: ")
-
 clave = ""
 
 for i in apellido:
-    if not i in "aeiou":
-        clave += i
-        if len(clave) == 4:
-            break
+    if not i in "aeiouAEIOU":
+        if len(clave) < 4:
+            clave += i
 
 if len(clave) != 4:
     print("hello!")
