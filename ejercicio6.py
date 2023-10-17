@@ -7,7 +7,6 @@ vocales = "aeiou"
 current_word = ""
 frase = "un lunes lluvioso"
 frase_transformada = ""
-
 for i in frase:
     count1 += 1
     count2 += 1
