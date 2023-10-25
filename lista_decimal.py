@@ -16,4 +16,3 @@ def lista_decimal(lista, decimal):
 
 
 print(lista_decimal([2, 3, 4, 5, 6, 8, 9, 2, 3, 5, 10, 20], 7.5))
-print(1 == True)

@@ -52,4 +52,3 @@ def generador_de_listas():
 
 
 print(generador_de_listas())
-print(esPrimo(727), esPrimo(613), esPrimo(499), esPrimo(659), esPrimo(593))

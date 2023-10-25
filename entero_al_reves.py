@@ -8,7 +8,6 @@ def entero_al_reves(num):
     for i in range(0, len(lista)):
         for j in range(0, len(lista)):
             current = lista[i]
-            print(current)
             valor = lista[j]
 
             if lista[i] - lista[j] == 0:
